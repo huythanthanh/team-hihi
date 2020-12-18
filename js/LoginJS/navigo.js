@@ -19,7 +19,7 @@ router.on("/sign-in", function() {
     console.log("Đăng nhập");
     document.getElementById("mainBody").innerHTML = "<custom-navbar></custom-navbar><login-form></login-form>";
     if(auth()) {
-        window.location.href = './home.html'
+        window.location.href = './index.html'
     }
 
 }).resolve();
@@ -43,7 +43,7 @@ window.onload = function() {
     // console.log(window.location.hash)
     if(auth() && window.location.hash != '#/sign-up') {
         
-        window.location.href = './home.html'
+        window.location.href = './index.html'
     } else if(window.location.hash == '#/sign-up'){
         router.navigate('/sign-up')
     }

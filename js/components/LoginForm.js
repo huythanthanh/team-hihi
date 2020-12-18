@@ -144,7 +144,7 @@ class LoginForm extends HTMLElement {
           alert("Email hoặc mật khẩu không chính xác");
         } else {
           makeAuth(getDataFromDoc(result.docs[0], ["password"]));
-          window.open("./index.html", "_self");
+          window.open("./home.html", "_self");
         }
       }
     };

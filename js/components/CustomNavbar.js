@@ -39,14 +39,14 @@ $templateNavbar.innerHTML = /*html*/ `
 <div class="container">
     <div class="header-area">
         <div class="logo">
-            <a href="index.html"><img src="../images/HomePagesIMG/logo.png" alt="logo" /></a>
+            <a href="home.html"><img src="../images/HomePagesIMG/logo.png" alt="logo" /></a>
         </div>
         
         <div class="menu-area">
             <div class="responsive-menu"></div>
             <div class="mainmenu">
                 <ul id="primary-menu">
-                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a class="active" href="home.html">Home</a></li>
                     <li><a href="movies.html">Movies</a></li>
                     <li><a href="celebrities.html">Creators</a></li>
                     <li><a href="blog.html">News</a></li>
